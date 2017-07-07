@@ -47,8 +47,8 @@ const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 12;
 const uint64_t MINIMUM_FEE                                   = UINT64_C(1000000);    // pow(10, 6)
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(1000000);    // pow(10, 6)
-const uint64_t MAX_TRANSACTION_SIZE_LIMIT                          = 19400;
-const uint64_t DEFAULT_FEE                          = 1000000000;
+const uint64_t MAX_TRANSACTION_SIZE_LIMIT                    = 19400;
+const uint64_t DEFAULT_FEE                                   = 1000000000;
 
 const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
@@ -72,9 +72,9 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const uint32_t KEY_IMAGE_CHECKING_BLOCK_INDEX                = 0;
-const uint32_t UPGRADE_HEIGHT_V2                                = 91452;
-const uint32_t UPGRADE_HEIGHT_V3                                = static_cast<uint32_t>(-1);
+const uint32_t KEY_IMAGE_CHECKING_BLOCK_INDEX                = 779800;
+const uint32_t UPGRADE_HEIGHT_V2                             = 91452;
+const uint32_t UPGRADE_HEIGHT_V3                             = static_cast<uint32_t>(-1);
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90;               // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
 const uint32_t UPGRADE_WINDOW                                = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
